@@ -1,0 +1,58 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+
+#contenedor {
+  margin: auto;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding: 30px;
+  box-shadow: 0px 0px 10px 0px #808080;
+  margin-top: 80px;
+}
+
+.eleccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+select {
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  font-size: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#jugar {
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  font-size: 1.2rem;
+ background-color: #808080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+#resultado {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  color: #008000;
+}
